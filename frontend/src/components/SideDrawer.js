@@ -122,7 +122,7 @@ function SideDrawer() {
       }
 
 
-      const { data } = await axios.get(`http://localhost:5001/api/user?search=${search}`, config);
+      const { data } = await axios.get(`https://chat-app-2fuq.onrender.com/api/user?search=${search}`, config);
       console.log(data);
       setLoading(false);
       setSearchResult(data);
