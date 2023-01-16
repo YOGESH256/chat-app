@@ -39,7 +39,7 @@ const MyChats = ({ fetchAgain }) => {
         },
       };
 
-      const { data } = await axios.get("http://localhost:5001/api/chat", config);
+      const { data } = await axios.get("https://chat-app-2fuq.onrender.com/api/chat", config);
       console.log(data);
       
       setChats(data);
