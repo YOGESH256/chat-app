@@ -117,7 +117,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
         };
         setNewMessage("");
         const { data } = await axios.post(
-          "http://localhost:5001/api/message",
+          "https://chat-app-2fuq.onrender.com/api/message",
           {
             content: newMessage,
             chatId: selectedChat._id,
