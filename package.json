@@ -4,6 +4,7 @@
   "description": "Chat app in progress",
   "main": "server.js",
   "scripts": {
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
     "start": "nodemon backend/server.js"
   },
   "author": "Yogesh Khatri",
