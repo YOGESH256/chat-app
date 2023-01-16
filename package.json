@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
-    "start": "node backend/server.js"
+    "start": "node backend/server.js",
+    "dev": "cd  frontend && npm start",
   },
   "author": "Yogesh Khatri",
   "license": "ISC",
