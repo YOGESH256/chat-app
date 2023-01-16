@@ -77,7 +77,7 @@ function SideDrawer() {
       };
 
       console.log(userId);
-      const { data } = await axios.post(`http://localhost:5001/api/chat`, { userId }, config);
+      const { data } = await axios.post(`https://chat-app-2fuq.onrender.com/api/chat`, { userId }, config);
       console.log(data);
 
       
